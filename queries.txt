@@ -1,0 +1,49 @@
+insert into user_contact values('895815','a1@gmail.com',182160);
+insert into user_contact values('895363','a2@gmail.com',182258);
+insert into user_contact values('895845','a3@gmail.com',183162);
+insert into user_contact values('895455','a4@gmail.com',184158);
+insert into user_contact values('257815','a5@gmail.com',184251);
+insert into user_contact values('635815','a6@gmail.com',184257);
+insert into user_contact values('958815','a7@gmail.com',186138);
+insert into user_contact values('892585','a8@gmail.com',187205);
+insert into user_contact values('891255','a9@gmail.com',187206);
+insert into user_contact values('102815','a11@gmail.com',187246);
+insert into user_contact values('365715','a23@gmail.com',187268);
+
+select * from user_contact;
+
+
+insert into participated_teams values(5001,2001);
+insert into participated_teams values(5001,2002);
+insert into participated_teams values(5001,2003);
+insert into participated_teams values(5002,2002);
+insert into participated_teams values(5002,2003);
+insert into participated_teams values(5002,2004);
+insert into participated_teams values(5003,2003);
+insert into participated_teams values(5003,2004);
+insert into participated_teams values(5003,2005);
+insert into participated_teams values(5004,2004);
+insert into participated_teams values(5004,2005);
+insert into participated_teams values(5004,2006);
+insert into participated_teams values(5005,2005);
+insert into participated_teams values(5005,2006);
+insert into participated_teams values(5005,2007);
+insert into participated_teams values(5006,2006);
+insert into participated_teams values(5006,2007);
+insert into participated_teams values(5006,2008);
+insert into participated_teams values(5007,2007);
+insert into participated_teams values(5007,2008);
+insert into participated_teams values(5007,2009);
+
+
+SELECT * FROM anand.event_survey;
+
+insert into event_survey values(5002,182160,'yes','looking forward');
+insert into event_survey values(5002,182258,'no','no use');
+insert into event_survey values(5002,183162,'yes','strength boaster');
+insert into event_survey values(5004,184158,'no','not related');
+insert into event_survey values(5004,184251,'no','not relevent');
+insert into event_survey values(5004,184257,'yes','great event');
+insert into event_survey values(5004,186138,'yes','useful for all');
+insert into event_survey values(5007,187205,'yes','related to studies');
+insert into event_survey values(5007,187206,'yes','relevent to current course');

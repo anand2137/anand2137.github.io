@@ -1,0 +1,1 @@
+SELECT * FROM anand.winner_teams;

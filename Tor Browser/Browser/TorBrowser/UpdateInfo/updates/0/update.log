@@ -1,0 +1,116 @@
+PATCH DIRECTORY C:\Users\Hp\Desktop\Tor Browser\Browser\TorBrowser\UpdateInfo\updates\0
+INSTALLATION DIRECTORY C:\Users\Hp\Desktop\Tor Browser\Browser
+WORKING DIRECTORY C:\Users\Hp\Desktop\Tor Browser\Browser
+UPDATE TYPE partial
+PREPARE PATCH xul.dll
+PREPARE PATCH updater.exe
+PREPARE PATCH tbb_version.json
+PREPARE PATCH softokn3.dll
+PREPARE ADD removed-files
+PREPARE PATCH qipcap.dll
+PREPARE ADD precomplete
+PREPARE PATCH plugin-hang-ui.exe
+PREPARE PATCH plugin-container.exe
+PREPARE PATCH platform.ini
+PREPARE PATCH omni.ja
+PREPARE PATCH nssdbm3.dll
+PREPARE PATCH nssckbi.dll
+PREPARE PATCH nss3.dll
+PREPARE PATCH mozglue.dll
+PREPARE PATCH mozavutil.dll
+PREPARE PATCH mozavcodec.dll
+PREPARE PATCH libGLESv2.dll
+PREPARE PATCH libEGL.dll
+PREPARE PATCH lgpllibs.dll
+PREPARE PATCH freebl3.dll
+PREPARE PATCH firefox.exe
+PREPARE ADD chrome.manifest
+PREPARE PATCH browser/omni.ja
+PREPARE PATCH browser/blocklist.xml
+PREPARE PATCH application.ini
+PREPARE PATCH TorBrowser/Tor/PluggableTransports/obfs4proxy.exe
+PREPARE PATCH TorBrowser/Docs/ChangeLog.txt
+PREPARE ADD TorBrowser/Data/Browser/profile.default/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi
+PREPARE ADD TorBrowser/Data/Browser/profile.default/extensions/https-everywhere-eff@eff.org.xpi
+PREPARE PATCH IA2Marshal.dll
+PREPARE PATCH AccessibleMarshal.dll
+PREPARE PATCH AccessibleHandler.dll
+EXECUTE PATCH xul.dll
+EXECUTE PATCH updater.exe
+EXECUTE PATCH tbb_version.json
+EXECUTE PATCH softokn3.dll
+EXECUTE ADD removed-files
+EXECUTE PATCH qipcap.dll
+EXECUTE ADD precomplete
+EXECUTE PATCH plugin-hang-ui.exe
+EXECUTE PATCH plugin-container.exe
+EXECUTE PATCH platform.ini
+EXECUTE PATCH omni.ja
+EXECUTE PATCH nssdbm3.dll
+EXECUTE PATCH nssckbi.dll
+EXECUTE PATCH nss3.dll
+EXECUTE PATCH mozglue.dll
+EXECUTE PATCH mozavutil.dll
+EXECUTE PATCH mozavcodec.dll
+EXECUTE PATCH libGLESv2.dll
+EXECUTE PATCH libEGL.dll
+EXECUTE PATCH lgpllibs.dll
+EXECUTE PATCH freebl3.dll
+EXECUTE PATCH firefox.exe
+EXECUTE ADD chrome.manifest
+EXECUTE PATCH browser/omni.ja
+EXECUTE PATCH browser/blocklist.xml
+EXECUTE PATCH application.ini
+EXECUTE PATCH TorBrowser/Tor/PluggableTransports/obfs4proxy.exe
+EXECUTE PATCH TorBrowser/Docs/ChangeLog.txt
+EXECUTE ADD TorBrowser/Data/Browser/profile.default/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi
+EXECUTE ADD TorBrowser/Data/Browser/profile.default/extensions/https-everywhere-eff@eff.org.xpi
+EXECUTE PATCH IA2Marshal.dll
+EXECUTE PATCH AccessibleMarshal.dll
+EXECUTE PATCH AccessibleHandler.dll
+FINISH PATCH xul.dll
+FINISH PATCH updater.exe
+ensure_remove: failed to remove file: C:\Users\Hp\Desktop\Tor Browser\Browser/updater.exe.moz-backup, rv: -1, err: 13
+backup_discard: unable to remove: updater.exe.moz-backup
+FINISH PATCH tbb_version.json
+FINISH PATCH softokn3.dll
+ensure_remove: failed to remove file: C:\Users\Hp\Desktop\Tor Browser\Browser/softokn3.dll.moz-backup, rv: -1, err: 13
+backup_discard: unable to remove: softokn3.dll.moz-backup
+FINISH ADD removed-files
+FINISH PATCH qipcap.dll
+FINISH ADD precomplete
+FINISH PATCH plugin-hang-ui.exe
+FINISH PATCH plugin-container.exe
+FINISH PATCH platform.ini
+FINISH PATCH omni.ja
+FINISH PATCH nssdbm3.dll
+FINISH PATCH nssckbi.dll
+FINISH PATCH nss3.dll
+ensure_remove: failed to remove file: C:\Users\Hp\Desktop\Tor Browser\Browser/nss3.dll.moz-backup, rv: -1, err: 13
+backup_discard: unable to remove: nss3.dll.moz-backup
+FINISH PATCH mozglue.dll
+ensure_remove: failed to remove file: C:\Users\Hp\Desktop\Tor Browser\Browser/mozglue.dll.moz-backup, rv: -1, err: 13
+backup_discard: unable to remove: mozglue.dll.moz-backup
+FINISH PATCH mozavutil.dll
+FINISH PATCH mozavcodec.dll
+FINISH PATCH libGLESv2.dll
+FINISH PATCH libEGL.dll
+FINISH PATCH lgpllibs.dll
+FINISH PATCH freebl3.dll
+ensure_remove: failed to remove file: C:\Users\Hp\Desktop\Tor Browser\Browser/freebl3.dll.moz-backup, rv: -1, err: 13
+backup_discard: unable to remove: freebl3.dll.moz-backup
+FINISH PATCH firefox.exe
+FINISH ADD chrome.manifest
+FINISH PATCH browser/omni.ja
+FINISH PATCH browser/blocklist.xml
+FINISH PATCH application.ini
+FINISH PATCH TorBrowser/Tor/PluggableTransports/obfs4proxy.exe
+FINISH PATCH TorBrowser/Docs/ChangeLog.txt
+FINISH ADD TorBrowser/Data/Browser/profile.default/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi
+FINISH ADD TorBrowser/Data/Browser/profile.default/extensions/https-everywhere-eff@eff.org.xpi
+FINISH PATCH IA2Marshal.dll
+FINISH PATCH AccessibleMarshal.dll
+FINISH PATCH AccessibleHandler.dll
+succeeded
+calling QuitProgressUI
+NS_main: unable to remove directory: tobedeleted, err: 41
